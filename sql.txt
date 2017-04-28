@@ -1,0 +1,26 @@
+SQL-de prosedur müxtelif parametrler qebul edib geriye lazim olan deyeri qaytarir.
+Proyektlerde hansi verilenler bazasini istifade edirik edek yazilan emrler isletme bazasina gönderilir
+ve netice bize qaytarilir.
+eger biz bu emeliyyati heyata keçirecek proseduru verilenler bazasinda yazsaq,
+her defe eyni emeliyyati etmek mecburiyyetinde qalmariq. 
+Lazim olan emeliyyati bir defe qurub bir neçe defe istifade ede bilerik.
+Bele istifade ise verilenler bazasi emeliyyatlarinda süret artimini temin edir.
+Bundan eave verilenler bazasinda neyise deyismek istesek,
+bu emeliyyati prosedur içerisinde deyisdirmek yeterli olacaqdir.
+Saxlanilan prosedurlarin bir çox üstünlükleri vardir:
+
+1)saxlanilan prosedurlar proqram performansini artirmaga kömek edir.
+2)Proqram ve database arasinda hereketi azaldir.
+3)Tehlükesizdir
+4)Prosedurlar bir çox proqramlar üçün lazimli ve seffafdir.
+
+SQL-de,baxis ve prosedur arasinda ferqler vardir:
+ View vasitesile biz seçilmis sorgulari müeyyen ede bilirik hansilari ki,
+melumatlari bir ve ya bir neçe masalardan alir.
+Prosedurla ise bundan daha çoxunu etmek mümkündür,bununla daha çox sql emrlerini,
+hesabat axinlarina nezareti ve qebul parametrlerini islede bilerik.
+View tez bir zamanda virtual masa yaratmaq imkani verir.
+Arrays istenilen sayda özünde data saxliya biler(integer,number,string ve.s)
+Arrays bir sira deyisenler toplusunu saxlamaq üçün istifade olunur,lakin,
+cox hallardan array-i eyni dipli deyisenler kimide düsünmek daha faydali olur.
+Array de xüsusi elementler indexle elde edilir.
